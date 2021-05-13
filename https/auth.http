@@ -1,0 +1,28 @@
+@api = http://localhost:8080
+
+### POST NEW USER
+POST {{api}}/api/auth/new
+Content-Type: application/json
+Connection: keep-alive
+
+{
+  "name": "Andrés Arana C",
+  "email": "aac@mail.com",
+  "password": "123456"
+}
+
+### POST LOGIN USER
+POST {{api}}/api/auth/
+Content-Type: application/json
+Connection: keep-alive
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsIm5hbWUiOiJBbmRyw6lzIEFyYW5hIEMiLCJpYXQiOjE2MjA5MjI4OTQsImV4cCI6MTYyMDkzMDA5NH0._BEdojSSupYNH-hIyAD_8lvU19XSENRF_RWadJd3lYc
+
+{
+  "email": "aac@mail.com",
+  "password": "123456"
+}
+
+### GET RENEW TOKEN
+GET {{api}}/api/auth/
+Connection: keep-alive
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsIm5hbWUiOiJBbmRyw6lzIEFyYW5hIEMiLCJpYXQiOjE2MjA5MjI4OTQsImV4cCI6MTYyMDkzMDA5NH0._BEdojSSupYNH-hIyAD_8lvU19XSENRF_RWadJd3lYc
