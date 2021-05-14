@@ -8,7 +8,7 @@ const { sequelize } = require('./database/models');
 class Server {
   constructor() {
     this.app = express();
-    this.host = process.env.HOST || 'http://localhost';
+    this.host = process.env.HTTP_HOST || 'http://localhost';
     this.port = process.env.PORT || 8080;
     this.paths = {
       auth: '/api/auth',
