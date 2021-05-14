@@ -1,5 +1,5 @@
 # note únicamente corresponde a un valor que se usa para diferenciar los titulos y el body de la nota a crear, token-userN es la variable que guarda los tokens de los usuarios creados, para que, de manera global pueda ser usada en cualquier verbo de las notas donde se requiere el token.
-@note = 1
+@note = 3
 @token = {{token-user1}}
 
 ### CREATE NOTE 1

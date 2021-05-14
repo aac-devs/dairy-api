@@ -1,6 +1,6 @@
 # Para usarlo, solamente reemplaze el número de token-userN, éste corresponde a la propiedad configurada en settings.json de .vscode. La variable user sólo cambia el número del usuaro que configura en name y email cuando se crea o se loguea el usuario.
-@user = 1
-@token = {{token-user1}}
+@user = 2
+@token = {{token-user2}}
 
 ### POST - USER CREATE NEW
 POST {{url}}/api/auth/new

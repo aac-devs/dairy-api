@@ -1,4 +1,4 @@
-@token = {{token-user2}}
+@token = {{token-user1}}
 
 ### CREATE NOTE 1
 GET {{url}}/api/notes
