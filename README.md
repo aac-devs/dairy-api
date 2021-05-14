@@ -1,14 +1,14 @@
 # DA - Backend
 
-DA - Backend es el servidor para la aplicación Dairy-App.
+DA - Backend es el servidor para la aplicación Diary-App.
 
-_DA - Backend is the server for the application Dairy-App_
+_DA - Backend is the server for the application Diary-App_
 
 ## Description
 
-Dairy-App es una aplicación usada para guardar notas de usuario, en la cual se debe registrar el usuario para poder crear sus notas, cada nota está compuesta por un título, cuerpo y día/hora de creación. Cuando se crea la nota, ésta se guarda en una base de datos. También se permite la edición y eliminación de las notas creadas, y eliminación completa de todas las notas creadas por el usuario.
+Diary-App es una aplicación usada para guardar notas de usuario, en la cual se debe registrar el usuario para poder crear sus notas, cada nota está compuesta por un título, cuerpo y día/hora de creación. Cuando se crea la nota, ésta se guarda en una base de datos. También se permite la edición y eliminación de las notas creadas, y eliminación completa de todas las notas creadas por el usuario.
 
-_Dairy-App is an application used to save user notes, in which the user must register in order to create his notes, each note is composed of a title, body and creation day/time. When the note is created, it is saved to a database. Editing and deletion of the notes created, and complete deletion of all notes created by the user is also allowed._
+_Diary-App is an application used to save user notes, in which the user must register in order to create his notes, each note is composed of a title, body and creation day/time. When the note is created, it is saved to a database. Editing and deletion of the notes created, and complete deletion of all notes created by the user is also allowed._
 
 ## Technologies
 
@@ -34,4 +34,3 @@ npm start
 npm run dev
 npm run test
 ```
-
