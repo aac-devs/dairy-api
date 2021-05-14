@@ -1,28 +1,30 @@
-@api = http://localhost:8080
+# Para usarlo, solamente reemplaze el número de token-userN, éste corresponde a la propiedad configurada en settings.json de .vscode. La variable user sólo cambia el número del usuaro que configura en name y email cuando se crea o se loguea el usuario.
+@user = 1
+@token = {{token-user1}}
 
-### POST NEW USER
-POST {{api}}/api/auth/new
+### POST - USER CREATE NEW
+POST {{url}}/api/auth/new
 Content-Type: application/json
 Connection: keep-alive
 
 {
-  "name": "Andrés Arana C",
-  "email": "aac@mail.com",
+  "name": "user {{user}}",
+  "email": "user{{user}}@mail.com",
   "password": "123456"
 }
 
-### POST LOGIN USER
-POST {{api}}/api/auth/
+### POST - USER LOGIN
+POST {{url}}/api/auth/
 Content-Type: application/json
 Connection: keep-alive
-x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsIm5hbWUiOiJBbmRyw6lzIEFyYW5hIEMiLCJpYXQiOjE2MjA5MjI4OTQsImV4cCI6MTYyMDkzMDA5NH0._BEdojSSupYNH-hIyAD_8lvU19XSENRF_RWadJd3lYc
 
 {
-  "email": "aac@mail.com",
+  "email": "user{{user}}@mail.com",
   "password": "123456"
 }
 
-### GET RENEW TOKEN
-GET {{api}}/api/auth/
+### GET - USER RENEW TOKEN
+GET {{url}}/api/auth/
+Content-Type: application/json
 Connection: keep-alive
-x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsIm5hbWUiOiJBbmRyw6lzIEFyYW5hIEMiLCJpYXQiOjE2MjA5MjI4OTQsImV4cCI6MTYyMDkzMDA5NH0._BEdojSSupYNH-hIyAD_8lvU19XSENRF_RWadJd3lYc
+x-token: {{token}}

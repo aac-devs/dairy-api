@@ -16,7 +16,6 @@ module.exports = {
     seederStorage: 'sequelize',
     seederStorageTableName: 'sequelize_data',
     define: {
-      timestamps: false,
       underscored: true,
     },
   },
@@ -30,7 +29,6 @@ module.exports = {
     seederStorage: 'sequelize',
     seederStorageTableName: 'sequelize_data',
     define: {
-      timestamps: false,
       underscored: true,
     },
     dialectOptions: {
@@ -50,7 +48,6 @@ module.exports = {
     seederStorage: 'sequelize',
     seederStorageTableName: 'sequelize_data',
     define: {
-      timestamps: false,
       underscored: true,
     },
   },

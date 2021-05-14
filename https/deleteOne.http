@@ -1,0 +1,8 @@
+@id=1
+@token = {{token-user1}}
+
+### CREATE NOTE 1
+DELETE {{url}}/api/notes/{{id}}
+Content-Type: application/json
+Connection: keep-alive
+x-token: {{token}}

@@ -1,0 +1,14 @@
+# id corresponde al id de la tabla de las notas en la base de datos. Este id se usa para acualizar o borrar una nota en particular.
+@id=13
+@token = {{token-user3}}
+
+### CREATE NOTE 1
+PUT {{url}}/api/notes/{{id}}
+Content-Type: application/json
+Connection: keep-alive
+x-token: {{token}}
+
+{
+  "title": "Titulo de la nota actualizado",
+  "body": "Cuerpo de la nota actualizado.."
+}

@@ -1,0 +1,7 @@
+@token = {{token-user2}}
+
+### CREATE NOTE 1
+GET {{url}}/api/notes
+Content-Type: application/json
+Connection: keep-alive
+x-token: {{token}}
