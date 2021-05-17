@@ -5,7 +5,8 @@ module.exports = (sequelize, DataTypes) => {
   Note.init(
     {
       title: DataTypes.STRING,
-      body: DataTypes.STRING,
+      body: DataTypes.TEXT,
+      image: DataTypes.STRING,
       uid: DataTypes.INTEGER,
     },
     {
