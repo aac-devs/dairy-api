@@ -6,9 +6,21 @@ _DA - Backend is the server for the application Diary-App_
 
 ## Description
 
-Diary-App es una aplicación usada para guardar notas de usuario, en la cual se debe registrar el usuario para poder crear sus notas, cada nota está compuesta por un título, cuerpo y día/hora de creación. Cuando se crea la nota, ésta se guarda en una base de datos. También se permite la edición y eliminación de las notas creadas, y eliminación completa de todas las notas creadas por el usuario.
+Diary App es una aplicación que permite crear, actualizar y eliminar notas diarias, a modo de agenda, para usuarios registrados o logueados, permite además, agregarle una imagen a cada nota creada. Cada nota contiene título, descripción, imagen y fecha de creación. La información de usuarios y notas se guardan en una base de datos. Usa autenticación de usuario a través de tokens (JWT).
 
-_Diary-App is an application used to save user notes, in which the user must register in order to create his notes, each note is composed of a title, body and creation day/time. When the note is created, it is saved to a database. Editing and deletion of the notes created, and complete deletion of all notes created by the user is also allowed._
+_Diary App is an application that allows you to create, update and delete daily notes, as an agenda, for registered or logged in users, it also allows you to add an image to each note created. Each note contains title, description, image, and creation date. User information and notes are stored in a database. Use user authentication through tokens (JWT)._
+
+## Run app
+
+Luego de [ejecutar](https://aac-diary-app.herokuapp.com) la aplicación se debe registrar de modo que cada usuario tenga la posibilidad de crear y mantener sus notas.
+
+_After [running](https://aac-diary-app.herokuapp.com) the application must be registered so that each user has the possibility to create and maintain their notes._
+
+## About this repo
+
+Este repositorio contiene el lado servidor de la aplicación Diary-App, el lado cliente se puede encontrar [aquí](https://github.com/aac-devs/diary-client).
+
+_This repository contains the server side of the Diary-App application, the client side can be found [here](https://github.com/aac-devs/diary-client)._
 
 ## Technologies
 
